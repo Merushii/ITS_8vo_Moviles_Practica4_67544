@@ -42,7 +42,10 @@ class HomeScreen extends StatelessWidget {
                 );
               },
               child: const Text('Words'),
-            ),
+            ), SizedBox(
+                height: 20,
+              ),
+
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
